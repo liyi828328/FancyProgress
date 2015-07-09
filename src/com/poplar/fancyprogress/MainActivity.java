@@ -2,6 +2,7 @@ package com.poplar.fancyprogress;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends Activity {
 
@@ -12,6 +13,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+        Log.d("TAG","Android Studio Git Test");
 		
 		view = (FancyProgress4) findViewById(R.id.fp4);
 		view.show();
