@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-        Log.d("TAG","Android Studio Git Test");
+        Log.d("TAG","Android Studio Git Test , From yulore Test");
 		
 		view = (FancyProgress4) findViewById(R.id.fp4);
 		view.show();
